@@ -55,7 +55,7 @@ def login(userid, password, isDateLast):
     hitUrl = "loginAction.do?subAction=ValidateUser"
     url = baseUrl + hitUrl + "&" + comData + \
         "&userid=" + userid + "&confData=" + password
-    response = s.post(url)
+    response = requests.post(url)
     status = 0
     if response.status_code == 200:
         rUrl = response.url
