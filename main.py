@@ -1,6 +1,9 @@
+import sys
 import json
 
 from req import login
+from rwfile import write_json
+from datetime import datetime
 
 userIds = []
 dateList = []
@@ -9,6 +12,8 @@ userIdsIndex = 0
 dateListIndex = 0
 userIdsLen = 0
 dateListLen = 0
+sys.setrecursionlimit(10**6)
+print(sys.getrecursionlimit())
 
 
 with open("userIds.json") as user_file:
@@ -24,7 +29,25 @@ with open("dateListA.json") as date_file:
     loads = loads + 1
 
 
+def setWorkingInfo(dataA):
+    with open("workingInfo.json") as json_file:
+        data = json.load(json_file)
+        data["lastWorkingId"] = dataA["id"]
+        data["lastUpdate"] = datetime.utcnow().strftime("%d/%m/%Y, %H:%M:%S")
+        data["total"] = data["total"] + 1
+        data["userIdsIndex"] = dataA["userIdsIndex"]
+        data["dateListIndex"] = dataA["dateListIndex"]
+        write_json(data, "workingInfo.json")
+
+
 def startFn():
+    global userIdsIndex
+    global dateListIndex
+    global workingData
+    with open("workingInfo.json") as json_file:
+        data = json.load(json_file)
+        userIdsIndex = data["userIdsIndex"]
+        dateListIndex = data["dateListIndex"]
     if userIdsLen and dateListLen:
         apiHit()
 
@@ -46,6 +69,12 @@ def apiHit():
         isDateLast = True
     if userIdsLen > userIdsIndex:
         if dateListLen > dateListIndex:
+            workingData = {
+                "id": userIds[userIdsIndex],
+                "userIdsIndex": userIdsIndex,
+                "dateListIndex": dateListIndex
+            }
+            setWorkingInfo(workingData)
             status = login(userIds[userIdsIndex],
                            dateList[dateListIndex], isDateLast)
             if status == 3:
@@ -56,14 +85,14 @@ def apiHit():
                     userIdsIndex = userIdsIndex + 1
                     dateListIndex = 0
                     return apiHit()
-                else :
+                else:
                     dateListIndex = dateListIndex + 1
                     return apiHit()
-              
+
                 # if dateListLen > dateListIndex:
-                   
+
                 # else:
-                    
+
             elif status == 2:
                 # print("worng id = ", userIds[userIdsIndex])
                 userIdsIndex = userIdsIndex + 1
@@ -93,7 +122,7 @@ def apiCall(id, date, isDateLast):
     if id:
         print("   ")
     else:
-         print("error =====", id, date, isDateLast)
+        print("error =====", id, date, isDateLast)
     if isDateLast:
         print("============isDateLast true")
     if ((id == "123456") and (date == "17021986")):
