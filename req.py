@@ -52,10 +52,12 @@ def getResPage(userid, data, rUrl):
 
 
 def login(userid, password, isDateLast):
+    global s
+    s = requests.session()
     hitUrl = "loginAction.do?subAction=ValidateUser"
     url = baseUrl + hitUrl + "&" + comData + \
         "&userid=" + userid + "&confData=" + password
-    response = requests.post(url)
+    response = s.post(url)
     status = 0
     if response.status_code == 200:
         rUrl = response.url

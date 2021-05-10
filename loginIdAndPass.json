@@ -1,7 +1,56 @@
 {
-    "lastLoginIdAndPass": "STET163548",
-    "lastUpdate": "09/05/2021, 08:09:57",
+    "lastLoginIdAndPass": "STET330438",
+    "lastUpdate": "10/05/2021, 10:55:55",
     "loginIdAndPass": [
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SCIENCE (106),ZOOLOGY (205)",
+            "dob": "08/Mar/1987",
+            "gender": "MALE",
+            "userid": "STET329693"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "27/Jun/1988",
+            "gender": "MALE",
+            "userid": "STET255655"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "04/Apr/1987",
+            "gender": "MALE",
+            "userid": "STET148132"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "MATHEMATICS (105),MATHEMATICS (202)",
+            "dob": "11/Oct/1990",
+            "gender": "MALE",
+            "userid": "STET315553"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "05/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET251754"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "11/Mar/1990",
+            "gender": "MALE",
+            "userid": "STET213309"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "MATHEMATICS (105),COMPUTER SCIENCE (207)",
+            "dob": "16/Aug/1988",
+            "gender": "MALE",
+            "userid": "STET330438"
+        }
     ],
-    "totalLoginIdAndPass": 0
+    "totalLoginIdAndPass": 7
 }
