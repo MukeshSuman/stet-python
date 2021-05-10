@@ -1,7 +1,19 @@
 {
-    "lastNotFoundId": "STET5086341",
-    "lastUpdate": "09/05/2021, 09:54:21",
+    "lastNotFoundId": "STET330464",
+    "lastUpdate": "10/05/2021, 08:46:12",
     "notFoundIds": [
+        "STET326376",
+        "STET5058747",
+        "STET5092423",
+        "STET5077279",
+        "STET5077397",
+        "STET147352",
+        "STET5087710",
+        "STET333638",
+        "STET219442",
+        "STET330643",
+        "STET5013961",
+        "STET330464"
     ],
-    "totalNotFound": 0
+    "totalNotFound": 12
 }
