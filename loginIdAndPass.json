@@ -1,6 +1,6 @@
 {
-    "lastLoginIdAndPass": "STET330438",
-    "lastUpdate": "10/05/2021, 10:55:55",
+    "lastLoginIdAndPass": "STET331226",
+    "lastUpdate": "10/05/2021, 12:36:02",
     "loginIdAndPass": [
         {
             "category": "UR (UN RESERVED)- GENERAL",
@@ -50,7 +50,56 @@
             "dob": "16/Aug/1988",
             "gender": "MALE",
             "userid": "STET330438"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "12/Aug/1990",
+            "gender": "MALE",
+            "userid": "STET310674"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "ENGLISH (104),ENGLISH (201)",
+            "dob": "24/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET329214"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "HINDI (101)",
+            "dob": "31/Jul/1990",
+            "gender": "MALE",
+            "userid": "STET178978"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SCIENCE (106),ZOOLOGY (205)",
+            "dob": "12/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET331176"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SCIENCE (106),ZOOLOGY (205)",
+            "dob": "12/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET331176"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "22/Aug/1990",
+            "gender": "MALE",
+            "userid": "STET258497"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SCIENCE (106),CHEMISTRY (204)",
+            "dob": "10/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET331226"
         }
     ],
-    "totalLoginIdAndPass": 7
+    "totalLoginIdAndPass": 14
 }
