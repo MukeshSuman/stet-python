@@ -1,6 +1,6 @@
 {
-    "lastLoginIdAndPass": "STET187517",
-    "lastUpdate": "11/05/2021, 14:12:16",
+    "lastLoginIdAndPass": "STET309888",
+    "lastUpdate": "11/05/2021, 18:16:58",
     "loginIdAndPass": [
         {
             "category": "UR (UN RESERVED)- GENERAL",
@@ -414,7 +414,35 @@
             "dob": "25/Feb/1990",
             "gender": "FEMALE",
             "userid": "STET187517"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105),COMPUTER SCIENCE (207)",
+            "dob": "05/May/1990",
+            "gender": "MALE",
+            "userid": "STET330323"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105),MATHEMATICS (202)",
+            "dob": "31/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET306042"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "URDU (102)",
+            "dob": "24/Mar/1990",
+            "gender": "MALE",
+            "userid": "STET302289"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "URDU (102),COMPUTER SCIENCE (207)",
+            "dob": "01/Mar/1990",
+            "gender": "MALE",
+            "userid": "STET309888"
         }
     ],
-    "totalLoginIdAndPass": 59
+    "totalLoginIdAndPass": 63
 }

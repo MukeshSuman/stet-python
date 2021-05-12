@@ -1,7 +1,7 @@
 {
-    "lastUpdate": "11/05/2021, 14:12:15",
-    "lastUrlId": "STET187517",
-    "totalUrl": 59,
+    "lastUpdate": "11/05/2021, 18:16:57",
+    "lastUrlId": "STET309888",
+    "totalUrl": 63,
     "urlList": [
         "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET329693&confData=08031987",
         "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET255655&confData=27061988",
@@ -61,6 +61,10 @@
         "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET330685&confData=22011990",
         "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET5089427&confData=21091990",
         "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET5087285&confData=21091990",
-        "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET187517&confData=25021990"
+        "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET187517&confData=25021990",
+        "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET330323&confData=05051990",
+        "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET306042&confData=31121990",
+        "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET302289&confData=24031990",
+        "https://cdn3.digialm.com/EForms/loginAction.do?subAction=ValidateUser&formId=66709&orgId=1631&userid=STET309888&confData=01031990"
     ]
 }
