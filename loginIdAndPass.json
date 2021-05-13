@@ -1,6 +1,6 @@
 {
-    "lastLoginIdAndPass": "STET309888",
-    "lastUpdate": "11/05/2021, 18:16:58",
+    "lastLoginIdAndPass": "STET5032240",
+    "lastUpdate": "13/05/2021, 07:57:35",
     "loginIdAndPass": [
         {
             "category": "UR (UN RESERVED)- GENERAL",
@@ -442,7 +442,476 @@
             "dob": "01/Mar/1990",
             "gender": "MALE",
             "userid": "STET309888"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "02/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET5077659"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "16/Mar/1990",
+            "gender": "MALE",
+            "userid": "STET5029357"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "20/May/1990",
+            "gender": "MALE",
+            "userid": "STET242637"
+        },
+        {
+            "category": "EWS (Economically Weaker Section)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "26/Feb/1990",
+            "gender": "MALE",
+            "userid": "STET161377"
+        },
+        {
+            "category": "EBC (Extremely Backward Class)",
+            "courses": "URDU (102)",
+            "dob": "17/Feb/1990",
+            "gender": "FEMALE",
+            "userid": "STET5081219"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105),COMPUTER SCIENCE (207)",
+            "dob": "10/Aug/1990",
+            "gender": "FEMALE",
+            "userid": "STET330512"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "27/Oct/1990",
+            "gender": "FEMALE",
+            "userid": "STET157333"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "11/Mar/1990",
+            "gender": "FEMALE",
+            "userid": "STET177269"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "ENGLISH (104),ENGLISH (201)",
+            "dob": "01/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET327627"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "MATHEMATICS (105)",
+            "dob": "03/Mar/1990",
+            "gender": "FEMALE",
+            "userid": "STET104214"
+        },
+        {
+            "category": "SC (SCHEDULED CASTE)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "15/Oct/1990",
+            "gender": "MALE",
+            "userid": "STET5088903"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "15/Oct/1990",
+            "gender": "MALE",
+            "userid": "STET213485"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "02/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET254934"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "11/Feb/1990",
+            "gender": "MALE",
+            "userid": "STET302750"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105)",
+            "dob": "05/Feb/1990",
+            "gender": "MALE",
+            "userid": "STET5057636"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "10/Jul/1990",
+            "gender": "MALE",
+            "userid": "STET5037374"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "ENGLISH (104)",
+            "dob": "05/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET5013907"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "MATHEMATICS (105),MATHEMATICS (202)",
+            "dob": "14/Aug/1990",
+            "gender": "MALE",
+            "userid": "STET332383"
+        },
+        {
+            "category": "SC (SCHEDULED CASTE)",
+            "courses": "MATHEMATICS (105)",
+            "dob": "26/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET105830"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SANSKRIT (103)",
+            "dob": "27/Jun/1990",
+            "gender": "FEMALE",
+            "userid": "STET193156"
+        },
+        {
+            "category": "EBC (Extremely Backward Class)",
+            "courses": "HINDI (101),ENGLISH (201)",
+            "dob": "02/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET304132"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105)",
+            "dob": "12/Oct/1990",
+            "gender": "FEMALE",
+            "userid": "STET5070163"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "HINDI (101)",
+            "dob": "05/Feb/1990",
+            "gender": "FEMALE",
+            "userid": "STET305767"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SCIENCE (106),BOTANY (206)",
+            "dob": "06/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET328557"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "15/Jul/1990",
+            "gender": "MALE",
+            "userid": "STET5092663"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105)",
+            "dob": "02/Nov/1990",
+            "gender": "MALE",
+            "userid": "STET5092290"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105),PHYSICS (203)",
+            "dob": "15/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET325326"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "MATHEMATICS (105),PHYSICS (203)",
+            "dob": "29/Mar/1990",
+            "gender": "MALE",
+            "userid": "STET301847"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "26/Aug/1990",
+            "gender": "MALE",
+            "userid": "STET238583"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "HINDI (101)",
+            "dob": "21/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET5080580"
+        },
+        {
+            "category": "SC (SCHEDULED CASTE)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "25/Mar/1990",
+            "gender": "MALE",
+            "userid": "STET5024788"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "30/Apr/1990",
+            "gender": "MALE",
+            "userid": "STET5012910"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "MATHEMATICS (105)",
+            "dob": "02/Aug/1990",
+            "gender": "MALE",
+            "userid": "STET5086941"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105)",
+            "dob": "16/Sep/1990",
+            "gender": "FEMALE",
+            "userid": "STET5048161"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "26/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET256429"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "URDU (102)",
+            "dob": "01/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET5088141"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "ENGLISH (104)",
+            "dob": "31/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET5062475"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SANSKRIT (103)",
+            "dob": "05/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET179779"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "03/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET5062027"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "HINDI (101)",
+            "dob": "10/Dec/1990",
+            "gender": "FEMALE",
+            "userid": "STET5068987"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "05/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET243871"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "28/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET144229"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "15/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET137553"
+        },
+        {
+            "category": "SC (SCHEDULED CASTE)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "05/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET5070064"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "MATHEMATICS (105),COMPUTER SCIENCE (207)",
+            "dob": "18/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET330695"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "13/Feb/1990",
+            "gender": "MALE",
+            "userid": "STET258862"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "03/Jul/1990",
+            "gender": "MALE",
+            "userid": "STET5045118"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "15/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET5072503"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "19/Aug/1990",
+            "gender": "FEMALE",
+            "userid": "STET220758"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "HINDI (101)",
+            "dob": "15/Jun/1990",
+            "gender": "FEMALE",
+            "userid": "STET5091189"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "26/Jun/1990",
+            "gender": "FEMALE",
+            "userid": "STET182684"
+        },
+        {
+            "category": "SC (SCHEDULED CASTE)",
+            "courses": "SANSKRIT (103)",
+            "dob": "12/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET5076723"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "15/Dec/1990",
+            "gender": "FEMALE",
+            "userid": "STET5050232"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "05/Feb/1990",
+            "gender": "FEMALE",
+            "userid": "STET160130"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "ENGLISH (104),ENGLISH (201)",
+            "dob": "16/Aug/1990",
+            "gender": "MALE",
+            "userid": "STET326462"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "14/Jan/1990",
+            "gender": "FEMALE",
+            "userid": "STET5046419"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "02/Feb/1990",
+            "gender": "FEMALE",
+            "userid": "STET5032054"
+        },
+        {
+            "category": "SC (SCHEDULED CASTE)",
+            "courses": "HINDI (101)",
+            "dob": "07/Sep/1990",
+            "gender": "MALE",
+            "userid": "STET5045065"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "02/Feb/1990",
+            "gender": "MALE",
+            "userid": "STET5087111"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "HINDI (101)",
+            "dob": "30/Jan/1990",
+            "gender": "MALE",
+            "userid": "STET163612"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "COMPUTER SCIENCE (207)",
+            "dob": "05/Aug/1990",
+            "gender": "MALE",
+            "userid": "STET232431"
+        },
+        {
+            "category": "SC (SCHEDULED CASTE)",
+            "courses": "URDU (102)",
+            "dob": "15/Feb/1990",
+            "gender": "MALE",
+            "userid": "STET186584"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SANSKRIT (103)",
+            "dob": "20/Oct/1990",
+            "gender": "MALE",
+            "userid": "STET309716"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "HINDI (101)",
+            "dob": "18/Jun/1990",
+            "gender": "FEMALE",
+            "userid": "STET5073620"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SCIENCE (106),ZOOLOGY (205)",
+            "dob": "16/Feb/1990",
+            "gender": "MALE",
+            "userid": "STET327134"
+        },
+        {
+            "category": "EWS (Economically Weaker Section)",
+            "courses": "ENGLISH (104),ENGLISH (201)",
+            "dob": "12/Dec/1990",
+            "gender": "MALE",
+            "userid": "STET304541"
+        },
+        {
+            "category": "UR (UN RESERVED)- GENERAL",
+            "courses": "SANSKRIT (103)",
+            "dob": "15/Jul/1990",
+            "gender": "MALE",
+            "userid": "STET5032240"
         }
     ],
-    "totalLoginIdAndPass": 63
+    "totalLoginIdAndPass": 130
 }
