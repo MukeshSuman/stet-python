@@ -28,16 +28,16 @@ def dataFromXml(xml):
     content = xml
     bs_content = BeautifulSoup(content, "lxml")
     child = bs_content.find_all('field')
-    pdfidentifier = bs_content.find('pdfidentifier')
+    pdfidentifier = bs_content.find_all('pdfidentifier')
+    results["identifiers"] = []
     if pdfidentifier:
-        identifier = pdfidentifier.get_text()
-        value = re.findall(r'\d+', identifier)[0]
-        if value:
-            results["identifier"] = value
-        else:
-            results["identifier"] = ""
+        for pdfid in pdfidentifier:
+            identifier = pdfid.get_text()
+            value = re.findall(r'\d+', identifier)[0]
+            if value:
+                results["identifiers"].append(value)
     else:
-        results["identifier"] = ""
+        results["identifiers"] = []
 
     for field in child:
         keyVar = ""

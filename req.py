@@ -16,6 +16,7 @@ pdfFolderPath = "stet-pdf/"
 
 
 def getResPage(userid, data, rUrl):
+    global pdfFolderPath
     targetUrl = baseUrl + "loginAction.do"
     response1 = s.post(targetUrl, data=data)
     if response1.status_code == 200:
@@ -38,13 +39,28 @@ def getResPage(userid, data, rUrl):
 
                     }
                     write_login_id_and_pass(userid, uData)
-                    pdfUrl = generatePDFUrl(xml)
-                    download_file(pdfUrl, userid)
+                    identifiersLen = len(xml["identifiers"])
+                    pdfUrls = []
+                    if identifiersLen > 1: 
+                        pdfFolderPath = "stet-pdf/double/"
+                    if identifiersLen:
+                        for identifier in xml["identifiers"]:
+                            xml["identifier"] = identifier
+                            pdfUrl = generatePDFUrl(xml)
+                            pdfUrls.append(pdfUrl)
+                            pdfName = userid + "(" + str(len(pdfUrls)) + ")"
+                            download_file(pdfUrl, pdfName)
+                    else: 
+                        xml["identifier"] = ""
+                        pdfUrl = generatePDFUrl(xml)
+                        pdfUrls.append(pdfUrl)
+                        download_file(pdfUrl, userid)
+                    pdfFolderPath = "stet-pdf/"    
                     loginAndPdfUrl = {
-                        "loginUrl": rUrl,
-                        "pdfUrl": pdfUrl
-                    }
-                    write_login_and_pdf_url(userid, loginAndPdfUrl)
+                            "loginUrl": rUrl,
+                            "pdfUrls": pdfUrls
+                        }
+                    write_login_and_pdf_url(userid, loginAndPdfUrl)    
             else:
                 print("errer => ", dataObj)
         else:
@@ -102,9 +118,14 @@ def generatePDFUrl(fData):
 
 def download_file(download_url, filename):
     response = s.get(download_url,  stream=True)
-    with open(pdfFolderPath + filename + ".pdf", 'wb') as f:
-        f.write(response.content)
+    if response.content :
+        with open(pdfFolderPath + filename + ".pdf", 'wb') as f:
+                f.write(response.content)
+    else:
+        with open(pdfFolderPath + "/error/" + filename + ".pdf", 'wb') as f:
+                f.write(response.content)
 
 
 # login("STET167962", "21111995", isDateLast=True)
-# login("STET235656", "21111996", isDateLast=True)
+# login("STET129391", "18031990", isDateLast=True)
+# login("STET330438", "16081988", isDateLast=True)
