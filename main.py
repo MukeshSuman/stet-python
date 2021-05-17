@@ -22,7 +22,7 @@ with open("userIds.json") as user_file:
     userIdsLen = len(userIds)
     loads = loads + 1
 
-with open("dateListA.json") as date_file:
+with open("dateListO.json") as date_file:
     data = json.load(date_file)
     dateList = data["dateList"]
     dateListLen = len(dateList)

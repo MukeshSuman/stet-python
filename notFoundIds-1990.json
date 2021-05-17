@@ -1,5 +1,7 @@
 {
-    "userIds": [
+    "lastNotFoundId": "STET5064389",
+    "lastUpdate": "13/05/2021, 08:03:19",
+    "notFoundIds": [
         "STET326376",
         "STET5058747",
         "STET5092423",
@@ -1182,5 +1184,6 @@
         "STET5026680",
         "STET5087021",
         "STET5064389"
-    ]
+    ],
+    "totalNotFound": 1182
 }
