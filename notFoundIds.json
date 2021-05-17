@@ -1,6 +1,8 @@
 {
-    "lastNotFoundId": "",
-    "lastUpdate": "",
-    "notFoundIds": [],
-    "totalNotFound": 0
+    "lastNotFoundId": "STET326376",
+    "lastUpdate": "17/05/2021, 09:59:59",
+    "notFoundIds": [
+        "STET326376"
+    ],
+    "totalNotFound": 1
 }

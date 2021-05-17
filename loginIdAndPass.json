@@ -1,6 +1,6 @@
 {
-    "lastLoginIdAndPass": "STET5032240",
-    "lastUpdate": "13/05/2021, 07:57:35",
+    "lastLoginIdAndPass": "STET5058747",
+    "lastUpdate": "17/05/2021, 10:00:47",
     "loginIdAndPass": [
         {
             "category": "UR (UN RESERVED)- GENERAL",
@@ -911,7 +911,14 @@
             "dob": "15/Jul/1990",
             "gender": "MALE",
             "userid": "STET5032240"
+        },
+        {
+            "category": "EWS (ECONOMICALLY WEAKER SECTION)",
+            "courses": "ENGLISH (104)",
+            "dob": "10/Feb/1991",
+            "gender": "FEMALE",
+            "userid": "STET5058747"
         }
     ],
-    "totalLoginIdAndPass": 130
+    "totalLoginIdAndPass": 131
 }
