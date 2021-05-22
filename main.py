@@ -4,6 +4,7 @@ import json
 from req import login
 from rwfile import write_json
 from datetime import datetime
+import time
 
 userIds = []
 dateList = []
@@ -84,6 +85,7 @@ def apiHit():
                     # print("not found id = ", userIds[userIdsIndex])
                     userIdsIndex = userIdsIndex + 1
                     dateListIndex = 0
+                    time.sleep(4) 
                     return apiHit()
                 else:
                     dateListIndex = dateListIndex + 1
@@ -103,6 +105,7 @@ def apiHit():
                       userIds[userIdsIndex], dateList[dateListIndex])
                 userIdsIndex = userIdsIndex + 1
                 dateListIndex = 0
+                time.sleep(4)
                 return apiHit()
             else:
                 print("something worng 1", userIdsIndex, dateListIndex)
@@ -110,6 +113,7 @@ def apiHit():
             print("something worng 2")
             userIdsIndex = userIdsIndex + 1
             dateListIndex = 0
+            time.sleep(4)
             return apiHit()
     else:
         print("work done")
