@@ -1,6 +1,6 @@
 {
-    "lastLoginIdAndPass": "STET5058747",
-    "lastUpdate": "17/05/2021, 10:00:47",
+    "lastLoginIdAndPass": "STET133737",
+    "lastUpdate": "17/05/2021, 10:55:23",
     "loginIdAndPass": [
         {
             "category": "UR (UN RESERVED)- GENERAL",
@@ -918,7 +918,35 @@
             "dob": "10/Feb/1991",
             "gender": "FEMALE",
             "userid": "STET5058747"
+        },
+        {
+            "category": "ST (SCHEDULED TRIBE)",
+            "courses": "MATHEMATICS (105),MATHEMATICS (202)",
+            "dob": "15/Jun/1991",
+            "gender": "MALE",
+            "userid": "STET333638"
+        },
+        {
+            "category": "EWS (Economically Weaker Section)",
+            "courses": "MATHEMATICS (105),MATHEMATICS (202)",
+            "dob": "20/May/1991",
+            "gender": "MALE",
+            "userid": "STET330464"
+        },
+        {
+            "category": "EBC (EXTREMELY BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "16/Jan/1991",
+            "gender": "MALE",
+            "userid": "STET5031361"
+        },
+        {
+            "category": "BC (BACKWARD CLASS)",
+            "courses": "SOCIAL SCIENCE (107)",
+            "dob": "09/Oct/1991",
+            "gender": "MALE",
+            "userid": "STET133737"
         }
     ],
-    "totalLoginIdAndPass": 131
+    "totalLoginIdAndPass": 135
 }
